@@ -87,6 +87,8 @@ body {
   color: var(--main-text-color);
   background: var(--portfolio-btn-background-color);
   border-radius: 4px;
+  padding: 6px 22px;
+  border: none;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -111,8 +113,9 @@ body {
   font-size: var(--main-text-font-size);
   line-height: 1.14;
   color: var(--main-text-color);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -124,8 +127,9 @@ body {
   font-size: var(--main-text-font-size);
   line-height: 1.14;
   color: var(--paragraph-color);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 .phone-number:hover,
 .phone-number:focus {
@@ -157,8 +161,6 @@ body {
   margin-left: auto;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border: 1px solid #ececec;
 }
 /* ================================================== /HEDER ================================================== */
@@ -303,16 +305,16 @@ button.current {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  padding-bottom: 50px;
-  padding-top: 100px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .work-items-categories {
   background: #ffffff;
   border: 1px solid #eeeeee;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
+}
+.portfolio-section {
+  padding: 94px 0;
 }
 /* ================================================== /portfolio ================================================== */
 /* ================================================== footer ================================================== */
