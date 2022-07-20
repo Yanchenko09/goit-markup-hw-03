@@ -175,11 +175,11 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .hero {
   background: var(--hero-background);
-  min-height: 600px;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-text {
   font-weight: 900;
@@ -189,14 +189,20 @@ body {
   color: var(--hero-text-color);
   margin-bottom: 40px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .advantages {
   display: flex;
-  flex-wrap: wrap;
   gap: 30px;
 }
 .our-advantages,
 .we-doing {
   background-color: var(--background-color-sections);
+}
+.we-doing {
+  padding-top: 0px;
 }
 .we-doing-card {
   display: flex;
@@ -204,9 +210,14 @@ body {
   gap: 30px;
 }
 .advantages-item {
+  width: 270px;
+}
+.advantages-characteristic {
   font-weight: 700;
-  font-size: var(--main-text-font-size);
+  font-size: 14px;
   line-height: 1.14;
+  color: var(--main-text-color);
+  margin-bottom: 10px;
 }
 .advantages-description {
   font-weight: 400;
@@ -218,6 +229,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
 }
 /* ================================================== OUR TEAM ================================================== */
 .team {
@@ -245,14 +258,7 @@ body {
 .employee {
   background-color: var(--employee-background-color);
 }
-.team,
-.we-doing,
-.our-advantages,
-.hero,
-.portfolio-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .employees {
   display: flex;
   flex-wrap: wrap;
@@ -298,6 +304,7 @@ button.current {
   flex-wrap: wrap;
   gap: 8px;
   padding-bottom: 50px;
+  padding-top: 100px;
   justify-content: center;
 }
 .work-items-categories {
